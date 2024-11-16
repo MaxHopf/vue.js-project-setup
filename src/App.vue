@@ -1,6 +1,6 @@
 <template>
   <h1>Hello from Vue.js Template</h1>
-  <Header parameter="This is parameterized paragraph" />
+  <Header parameter="This is parameterized paragraph" bgColor="cadetblue" />
 </template>
 
 <script>
