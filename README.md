@@ -19,7 +19,7 @@ npm install
 3. Start Vue.js application
 
 ```
-node_modules/@vue/cli-service/bin/vue-cli-service.js serve
+npm run serve
 ```
 
 4. Build Vue.js application for production
