@@ -2,7 +2,7 @@
   <header>
     <h2>Hello from a Vue Component</h2>
     <p>{{ parameter }}</p>
-    <button :style="{ background: bgColor }">Click me</button>
+    <button @click="handleClick()" :style="{ background: bgColor }">Click me</button>
   </header>
 </template>
 
@@ -12,6 +12,11 @@ export default {
   props: {
     parameter: String,
     bgColor: String,
+  },
+  methods: {
+    handleClick() {
+      console.log("Button clicked");
+    },
   },
 };
 </script>
